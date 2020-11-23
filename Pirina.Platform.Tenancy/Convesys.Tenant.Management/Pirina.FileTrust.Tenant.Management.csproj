@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Infrastructure\Glasswall.Infrastructure.Tenancy\Glasswall.Common.Tenancy.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Glasswall.Infrastructure\Glasswall.Common.Initialisation.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Glasswall.Server.Initialisation.Data\Glasswall.Common.Data.csproj" />
+    <ProjectReference Include="..\..\..\ORM\Providers\Provider.EntityFramework\Provider.EntityFramework.Core.csproj" />
+    <ProjectReference Include="..\..\..\Tenancy\Glasswall.Tenancy.Catalog\Glasswall.Tenancy.Catalog.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.SqlClient">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\system.data.sqlclient\4.5.0\ref\netcoreapp2.1\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
