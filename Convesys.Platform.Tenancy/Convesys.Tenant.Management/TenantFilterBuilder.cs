@@ -1,10 +1,9 @@
-﻿using Convesys.Kernel.Data.Tenancy;
-using System;
+﻿using System;
 using System.Linq;
 
-namespace Convesys.FileTrust.Tenant.Management
+namespace Platform.FileTrust.Tenant.Management
 {
-    internal class TenantFilterBuilder : ITenantFilterBuilder
+	internal class TenantFilterBuilder : ITenantFilterBuilder
     {
         public TenantFilterBuilder()
         {

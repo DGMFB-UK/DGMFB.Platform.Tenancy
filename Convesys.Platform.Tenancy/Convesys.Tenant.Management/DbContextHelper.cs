@@ -2,11 +2,10 @@
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Linq.Expressions;
-using Convesys.Kernel.Reflection.Extensions;
 
-namespace Convesys.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    internal class DbContextHelper
+	internal class DbContextHelper
     {
         public const string TenantId = "TenantId";
         private static ConcurrentDictionary<Type, Action<object, object>> _delegateCache = new ConcurrentDictionary<Type, Action<object, object>>();

@@ -1,13 +1,11 @@
-﻿
-using Convesys.Kernel.Reflection.Extensions;
-using System;
+﻿using System;
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Convesys.FileTrust.Tenant.Management
+namespace Platform.FileTrust.Tenant.Management
 {
-    internal class QueryHelper
+	internal class QueryHelper
     {
         public const string TenantId = "TenantId";
         private static ConcurrentDictionary<Type, Action<object, object>> _delegateCache = new ConcurrentDictionary<Type, Action<object, object>>();

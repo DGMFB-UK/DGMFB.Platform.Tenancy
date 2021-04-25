@@ -1,12 +1,10 @@
-﻿using Convesys.Kernel.Data.ORM;
-using Convesys.Kernel.Data.Tenancy;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Convesys.Platform.Tenancy.Convesys.Tenant.Management
+namespace Platform.Platform.Tenancy.Convesys.Tenant.Management
 {
-    public class DbCustomConfiguration : IDbCustomConfiguration
+	public class DbCustomConfiguration : IDbCustomConfiguration
     {
         public DbCustomConfiguration(Func<IEnumerable<Type>> modelsFactory, Func<IEnumerable<IDbMapper>> mapperFactory, string modelKey)
         {

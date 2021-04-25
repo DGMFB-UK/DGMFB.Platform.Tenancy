@@ -1,13 +1,11 @@
-﻿using Convesys.Common.Tenancy.Tenancy;
-using Convesys.Kernel.Data.Tenancy;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 
-namespace Convesys.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    internal class TenantManager : ITenantManager
+	internal class TenantManager : ITenantManager
     {
         public static Func<IEnumerable<ITenantResolver<TenantId<Guid>>>> TenantResolvers;
         

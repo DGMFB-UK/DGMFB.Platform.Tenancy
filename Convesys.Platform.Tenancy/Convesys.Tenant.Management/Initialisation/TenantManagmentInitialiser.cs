@@ -1,22 +1,12 @@
-﻿using Convesys.Common.Tenancy.Tenancy;
-using Convesys.Kernel.Data;
-using Convesys.Kernel.Data.ORM;
-using Convesys.Kernel.Data.Tenancy;
-using Convesys.Kernel.DependencyResolver;
-using Convesys.Kernel.Initialisation;
-using Convesys.Kernel.Reflection.Reflection;
-using Convesys.Platform.Tenancy.Convesys.Tenant.Management;
-using Convesys.Providers.EntityFramework;
-using Convesys.Tenant.Management;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Convesys.FileTrust.Tenant.Management.Initialisation
+namespace Platform.FileTrust.Tenant.Management.Initialisation
 {
-    public class TenantManagmentInitialiser : IInitialiser
+	public class TenantManagmentInitialiser : IInitialiser
     {
         private const string TenantCatalogKey = "Tenant_Catalog_Context";
         
