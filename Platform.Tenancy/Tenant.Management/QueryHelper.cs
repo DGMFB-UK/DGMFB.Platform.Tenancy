@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Platform.FileTrust.Tenant.Management
+namespace Platform.Tenant.Management
 {
 	internal class QueryHelper
     {

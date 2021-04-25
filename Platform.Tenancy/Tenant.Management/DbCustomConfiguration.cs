@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Platform.Platform.Tenancy.Convesys.Tenant.Management
+namespace Platform.Tenancy.Convesys.Tenant.Management
 {
 	public class DbCustomConfiguration : IDbCustomConfiguration
     {

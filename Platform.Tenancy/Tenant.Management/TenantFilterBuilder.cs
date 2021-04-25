@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Platform.FileTrust.Tenant.Management
+namespace Platform.Tenant.Management
 {
 	internal class TenantFilterBuilder : ITenantFilterBuilder
     {

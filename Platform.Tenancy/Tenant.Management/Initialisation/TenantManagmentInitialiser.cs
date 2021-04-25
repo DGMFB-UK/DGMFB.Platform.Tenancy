@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Platform.FileTrust.Tenant.Management.Initialisation
+namespace Platform.Tenant.Management.Initialisation
 {
 	public class TenantManagmentInitialiser : IInitialiser
     {
